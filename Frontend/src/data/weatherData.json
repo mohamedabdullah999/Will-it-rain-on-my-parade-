@@ -1,0 +1,50 @@
+{
+  "daily": {
+    "2025-10-01": {
+      "rainfall": 65,
+      "temp": 22,
+      "wind": 15,
+      "humidity": 70
+    }
+  },
+  "weekly": {
+    "2025-10-01": {
+      "rainfall": [
+        { "day": "Mon", "value": 60 },
+        { "day": "Tue", "value": 70 },
+        { "day": "Wed", "value": 55 },
+        { "day": "Thu", "value": 80 },
+        { "day": "Fri", "value": 65 },
+        { "day": "Sat", "value": 50 },
+        { "day": "Sun", "value": 75 }
+      ],
+      "temp": [
+        { "day": "Mon", "value": 21 },
+        { "day": "Tue", "value": 23 },
+        { "day": "Wed", "value": 22 },
+        { "day": "Thu", "value": 24 },
+        { "day": "Fri", "value": 20 },
+        { "day": "Sat", "value": 25 },
+        { "day": "Sun", "value": 22 }
+      ],
+      "wind": [
+        { "day": "Mon", "value": 10 },
+        { "day": "Tue", "value": 15 },
+        { "day": "Wed", "value": 12 },
+        { "day": "Thu", "value": 14 },
+        { "day": "Fri", "value": 13 },
+        { "day": "Sat", "value": 17 },
+        { "day": "Sun", "value": 11 }
+      ],
+      "humidity": [
+        { "day": "Mon", "value": 65 },
+        { "day": "Tue", "value": 70 },
+        { "day": "Wed", "value": 75 },
+        { "day": "Thu", "value": 60 },
+        { "day": "Fri", "value": 68 },
+        { "day": "Sat", "value": 72 },
+        { "day": "Sun", "value": 69 }
+      ]
+    }
+  }
+}

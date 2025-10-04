@@ -32,9 +32,8 @@ This README explains how to run, configure, and contribute to the project.
 
 - Frontend: **React** (Vite) — fast dev experience and lightweight production build.
 - Charts: **Chart.js** or **Recharts** for interactive graphs.
-- Backend: **Node.js + Express** (or any preferred REST API framework).
-- Data store: **PostgreSQL** (or any time-series-friendly datastore) for cached historical aggregates.
-- Deployment: **Vercel / Netlify** (frontend) + **Heroku / Render / Railway** (backend) or a single fullstack host.
+- Backend: **php + Laravel** .
+- Data store: **MySQl** for cached historical aggregates.
 
 > Note: Adjust stack to match your preferences — the repository already includes a Vite + React frontend structure.
 
@@ -63,7 +62,7 @@ npm install
 
 ```bash
 # Example .env
-VITE_API_BASE_URL=http://localhost:4000
+VITE_API_BASE_URL=http://localhost:8000
 API_KEY=your_weather_data_api_key
 ```
 
@@ -97,7 +96,7 @@ These endpoints are suggested and should be adapted to your backend implementati
 
   - Returns a 7-day forecast (expected averages, humidity, wind stats, and probabilities).
 
-- `GET /api/recommendations?lat={lat}&lng={lng}`
+- `GET /api/recommendations?lat={lat}&lng={lng}&date={YYYY-MM-DD}`
 
   - Returns suggested best visiting times and short notes based on long-term patterns.
 
